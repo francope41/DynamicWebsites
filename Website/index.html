@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat';
+  background-color: #537569;
+}
+
+.grid-item:hover {
+  background-color: #ddd;
+  color: #537569;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% auto auto auto auto auto;
+  background-color: #EDEAE6;
+  color: #537569;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 150px;
+}
+.grid-container a{
+    float: right;
+    color: #537569;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.grid-container a.active {
+    font-weight: bold;
+}
+.grid-item {
+    border-radius: 10px;
+    background-color: #EDEAE6;
+    font-size: 30px;
+    text-align: center;
+    height: 15%;
+    margin-left: 2%;
+}
+.grid-logo:hover{
+ background-color: inherit;
+}
+.logo {
+    float: left;
+    max-height:100%; 
+    max-width:100%;
+    object-fit: contain;
+}
+</style>
+</head>
+<body>
+
+<!--<div class="topnav">
+    <img class="logo" src="NN LogoCropped.jpeg" alt="Logo">-->
+  <!--<a class="active" href="#home">Contact Us</a>
+  <a href="#news">Appointments</a>
+  <a href="#contact">Recipes</a>
+  <a href="#about">About Us</a>
+</div>
+-->
+
+<div class="grid-container">
+    <div class="grid-item grid-logo"><img class="logo" src="NN LogoCropped.jpeg" alt="Logo"></div>
+    <div class="grid-item"><a class="active" href="#ContactUs">Contact Us</a></div>
+    <div class="grid-item"><a href="#Appointments">Appointments</a></div>  
+    <div class="grid-item"><a href="#Recipes">Recipes</a></div>
+    <div class="grid-item"><a href="#about">About Us</a></div> 
+</div>
+
+</body>
+</html>
