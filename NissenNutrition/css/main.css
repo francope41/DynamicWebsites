@@ -52,13 +52,15 @@ body {
 }
 
 .grid-bottom{
-	position:absolute;
-	bottom: 0px;
+	position:fixed;
+	bottom: 10%;
+	left: 25px;
+	right: 25px;
+	margin: auto;
 	display: grid;
-	grid-template-columns: 50% 30% auto;
+	grid-template-columns: 25% 25% auto;
 	color: #537569;
 	border-radius: 10px;
-	margin: auto;
 	height: 150px;
 	width: 90%;
   }
@@ -74,12 +76,18 @@ body {
 	border-radius: 10px;
 	font-size: 30px;
 	height: auto;
-	margin-left: 2%;
   }
 
 .TakeAction{
 	float: left;
 }
+
+.UnderLine{
+	width: 50%;
+	border-bottom: 5px solid  #EDEAE6;
+	border-radius:10px ;
+}
+
 .fa {
 	margin-top: 60px;
 	float: right;
