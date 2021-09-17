@@ -1,7 +1,7 @@
 .Home-Logo{
     width: 50%;
     padding: 20px;
-    height:400px ;
+    height:500px ;
     margin: auto;
     margin-top: 150px;
     align-items: center;
@@ -22,5 +22,6 @@
     font-size: 65px;
 }
 .Slogan p{
+    height: 120px;
     margin: auto;
 }

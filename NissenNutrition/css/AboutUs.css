@@ -7,23 +7,23 @@
 
 .profiles{
     width: 60%;
+    height: 650px;
     display: grid;
 	grid-template-columns: auto auto;
 	color: #537569;
 	border-radius: 10px;
 	margin: auto;
-	height: 700px;
 }
 
 .profilePic {
     border-radius: 10px;
 	font-size: 30px;
 	text-align: center;
-	height: 100%;
+	height: fit-content;
 }
 
 .ProfPic{
-    margin-top: 20px;
+    margin-top: 0px;
     align-items: center;
     border-radius: 180px;
 }
@@ -31,7 +31,7 @@
 .profileInfo{
 	text-align: center;
     border-radius: 50px;
-    height: 100%;
+    height: fit-content;
     width: 100%;
 }
 

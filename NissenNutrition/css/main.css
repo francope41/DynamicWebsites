@@ -20,7 +20,13 @@ body {
 	margin-right: 2%;
 	height: 150px;
 }
-.grid-container a{
+.linkLogo{
+	float:unset;
+	padding-top: 0px;
+	height: 150px;
+
+}
+.link{
 	float: right;
 	color: #537569;
 	text-decoration: none;
@@ -30,6 +36,7 @@ body {
 	align-items: center;
 	padding-top: 50px;
 }
+
 .grid-container a.active {
 	font-weight: bold;
 }
@@ -52,7 +59,7 @@ body {
 }
 
 .grid-bottom{
-	position:inherit;
+	position:static;
 	bottom: 10%;
 	left: 25px;
 	right: 25px;
@@ -91,20 +98,32 @@ body {
 .fa {
 	margin-top: 60px;
 	float: right;
-	padding: 20px;
 	font-size: 50px;
-	width: 30px;
-	text-align: center;
 	text-decoration: none;
+  	width:60px;
+  	height:60px;
+  	text-align:center;
+  	border-radius: 50%;
+  	padding: 6px;
+  	box-sizing: border-box;
+  	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  	transition: .5s;
+	background: linear-gradient(0deg, #fff, #ddd);
+
+}
+
+.fa:hover {
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	text-decoration:none;
 }
 .fa-facebook {
 	background: inherit;
 	color: white;
-	border-radius: 80px;
+	
   }
 
 .fa-instagram {
+	margin-left: 20px;
 	background: inherit;
 	color: white;
-	border-radius: 80px;
   }
