@@ -1,0 +1,26 @@
+.Home-Logo{
+    width: 50%;
+    padding: 20px;
+    height:400px ;
+    margin: auto;
+    margin-top: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.homeLogo{
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+}
+
+.Slogan{
+    width: 100%;
+    text-align: center;
+    color: #EDEAE6;
+    font-size: 65px;
+}
+.Slogan p{
+    margin: auto;
+}

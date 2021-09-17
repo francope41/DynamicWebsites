@@ -1,0 +1,47 @@
+.InfoUs{
+    margin:auto;
+    width: 90%;
+    color: #EDEAE6;
+    font-size: 25px;
+}
+
+.profiles{
+    width: 60%;
+    display: grid;
+	grid-template-columns: auto auto;
+	color: #537569;
+	border-radius: 10px;
+	margin: auto;
+	height: 700px;
+}
+
+.profilePic {
+    border-radius: 10px;
+	font-size: 30px;
+	text-align: center;
+	height: 100%;
+}
+
+.ProfPic{
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 180px;
+}
+
+.profileInfo{
+	text-align: center;
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.profileInfo p {
+    font-size: x-large;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 25px;
+    background-color:#EDEAE6;
+    width: 650px;
+    margin: auto;
+    height: fit-content;
+}
