@@ -52,7 +52,7 @@ body {
 }
 
 .grid-bottom{
-	position:fixed;
+	position:absolute;
 	bottom: 10%;
 	left: 25px;
 	right: 25px;
