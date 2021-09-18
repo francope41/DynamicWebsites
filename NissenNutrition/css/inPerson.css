@@ -1,0 +1,61 @@
+.Title{
+    width: 100%;
+    text-align: center;
+    color: #EDEAE6;
+    font-size: 2em;
+}
+
+.holder{
+    display: grid;
+	grid-template-columns: 50% ;
+	background-color: inherit;
+	color: #EDEAE6;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: 90%;
+    position:static;
+}
+
+.option{
+    border-radius: 10px;
+	background-color: inherit;
+	font-size: 35px;
+	height: 100%;
+    color: #EDEAE6;
+    padding: 25px;
+}
+.option img{
+    width: 230px;
+    height: 230px;
+    border-radius: 150px;
+    float: left;
+}
+
+.imgHolder{
+    float: left;
+    width: 25%;
+    height: 230px;
+}
+.text{
+    float: left;
+
+}
+.text p {
+    margin: 0px;
+}
+.ReadMore{
+    text-decoration: none;
+    width: 100%;
+    color: #EDEAE6;
+}
+.Reserve{
+    color: #537569;
+    background-color: #EDEAE6;
+    float: left;
+    padding: 5px;
+    width: auto;
+    font-size: 35px;
+    text-decoration: none;
+    border-radius: 15px;
+}

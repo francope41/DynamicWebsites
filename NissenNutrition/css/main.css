@@ -5,7 +5,6 @@ body {
 }
 
 .grid-item:hover {
-	background-color: #ddd;
 	color: #537569;
 }
 
@@ -31,10 +30,14 @@ body {
 	color: #537569;
 	text-decoration: none;
 	width: 100%;
-	height: 100%;
+	height: 100px;
 	justify-content: center;
 	align-items: center;
 	padding-top: 50px;
+}
+
+.link:hover{
+	font-weight: bold;
 }
 
 .grid-container a.active {
@@ -48,14 +51,14 @@ body {
 	height: 15%;
 	margin-left: 2%;
 }
-.grid-logo:hover{
-	background-color: inherit;
-  }
 .logo {
 	float: left;
 	max-height:100%; 
 	max-width:100%;
 	object-fit: contain;
+}
+.logo:hover{
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 .grid-bottom{
@@ -103,12 +106,8 @@ body {
   	width:60px;
   	height:60px;
   	text-align:center;
-  	border-radius: 50%;
   	padding: 6px;
   	box-sizing: border-box;
-  	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-  	transition: .5s;
-	background: linear-gradient(0deg, #fff, #ddd);
 
 }
 
