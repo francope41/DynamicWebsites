@@ -6,13 +6,14 @@
 }
 
 .profiles{
-    width: 60%;
+    width: 90%;
     height: 650px;
     display: grid;
 	grid-template-columns: auto auto;
 	color: #537569;
 	border-radius: 10px;
 	margin: auto;
+    padding: 50px;
 }
 
 .profilePic {

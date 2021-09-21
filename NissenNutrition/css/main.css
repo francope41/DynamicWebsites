@@ -96,6 +96,7 @@ body {
 	width: 50%;
 	border-bottom: 5px solid  #EDEAE6;
 	border-radius:10px ;
+	white-space: nowrap;
 }
 
 .fa {
