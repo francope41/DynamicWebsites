@@ -4,6 +4,10 @@ body {
 	background-color: #537569;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 .grid-item:hover {
 	color: #537569;
 }
