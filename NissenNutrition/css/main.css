@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	padding: 30px;
 	font-family: 'Montserrat';
 	background-color: #537569;
 }
@@ -18,9 +19,6 @@ body {
 	background-color: #EDEAE6;
 	color: #537569;
 	border-radius: 10px;
-	margin-top: 2%;
-	margin-left: 2%;
-	margin-right: 2%;
 	height: 150px;
 }
 .linkLogo{
@@ -66,17 +64,10 @@ body {
 }
 
 .grid-bottom{
-	position:static;
-	bottom: 10%;
-	left: 25px;
-	right: 25px;
-	margin: auto;
 	display: grid;
 	grid-template-columns: 25% 25% auto;
 	color: #537569;
 	border-radius: 10px;
-	height: 150px;
-	width: 90%;
   }
   .grid-bottom a{
 	color: #EDEAE6;
